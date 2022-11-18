@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin sans';
+}
+.nav-link{
+    color: black;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.nav-link-all{
+    color: black;
+}
+.navs{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.all-txt{
+    padding-top: 150px;
+}
+.Discoverbutton1{
+    background-color:purple;
+    border: none;
+    width: 150px;
+    height: 45px;
+    color:white;
+}
+.Bookbutton2{
+    background-color:white;
+    border: 5px solid purple;
+    width: 150px;
+    height: 45px;
+    color:black;
+}
+.rectangle-all{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.alltheitems{
+    display: flex;
+    flex-direction: row;
+}
+.img1{
+    width: 200px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+}
+.img2{
+    width: 200px;
+    height: 500px;
+    position: relative;
+}
+.img3{
+    width: 200px;
+    height: 500px;
+    position: relative;
+    top: 50px;
+}
+.img4{
+    width: 200px;
+    height: 500px;
+}
+.play{
+    width: 30px;
+    height: 30px;
+}
+.tick{
+    width: 30px;
+    height: 30px 
+}
+.watch{
+    display: flex;
+    flex-direction: row;
+}
+.trusted{
+    display: flex;
+    flex-direction: row;
+}
+.Tigzozo{
+    width: 100%;
+    height: 100vh;
+    padding-top: 180px;
+}
+.rect2{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: 70px; 
+}
+.rect1{
+    width: 250px;
+    height: 300px;
+}
+.tigz-img{
+    background-image: url('../images/Rectangle\ 15.jpg');
+    width: 420px;
+    height: 450px;
+    position: relative;
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.229);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.youtube{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 170px;
+    top: 180px;
+}
+.buttonfind{
+    background-color:purple;
+    border: none;
+    width: 150px;
+    height: 45px;
+    color:white;
+}
+.services{
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: 80px;  
+}
+.events{
+    background-image: url('../images/Rectangle\ 27.png');
+    width: 400px;
+    height: 680px;
+    position: relative;
+}
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.229);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.Digital-services{
+    background-color: purple;
+    width: 400px;
+    height: 680px;
+
+}
+.offers{
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     top: 150px;
+     gap: 10px;
+}
+.Media{
+    background-image: url('../images/Rectangle\ 29.png');
+    width: 400px;
+    height: 680px;
+}
+h4{
+    color: white;
+    display: flex;
+    position: relative;
+    padding-top: 650px;
+    padding-left: 160px;
+}
+.listservices{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-size: 200%;
+}
+.logos{
+    
+}
+h3{
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+
+
+
