@@ -2,9 +2,14 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Josefin sans';
+    overflow-x: hidden;
 }
 .nav-link{
-    color: black;
+    color:var(--secondary-color);
+}
+
+body{
+    background-color: var(--primary-color);
 }
 
 .logo img{
@@ -13,18 +18,22 @@ body{
     margin-left: 10px;
 }
 .nav-link-all{
-    color: black;
+    color: var(--secondary-color);
 }
 .navs{
     display: flex;
     gap: 30px;
     font-size: 20px;
 }
+.vector-nav{
+    position: relative;
+    left: 200px;
+}
 .all-txt{
     padding-top: 150px;
 }
 .Discoverbutton1{
-    background-color:purple;
+    background-color:#742296;
     border: none;
     width: 150px;
     height: 45px;
@@ -32,7 +41,7 @@ body{
 }
 .Bookbutton2{
     background-color:white;
-    border: 5px solid purple;
+    border: 5px solid #742296;
     width: 150px;
     height: 45px;
     color:black;
@@ -78,6 +87,7 @@ body{
 .watch{
     display: flex;
     flex-direction: row;
+    color: #742296;
 }
 .trusted{
     display: flex;
@@ -119,7 +129,7 @@ body{
     top: 180px;
 }
 .buttonfind{
-    background-color:purple;
+    background-color:#742296;
     border: none;
     width: 150px;
     height: 45px;
@@ -137,6 +147,13 @@ body{
     height: 680px;
     position: relative;
 }
+.next1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 350px;
+    top: 630px;
+}
 .overlay2{
     background-color: rgba(0, 0, 0, 0.229);
     width: 100%;
@@ -144,10 +161,16 @@ body{
     position: absolute;
 }
 .Digital-services{
-    background-color: purple;
+    background-color:#742296;
     width: 400px;
     height: 680px;
-
+}
+.cancel{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 330px;
+    top: 490px;
 }
 .offers{
      display: flex;
@@ -156,10 +179,22 @@ body{
      top: 150px;
      gap: 10px;
 }
+.tigz-services{
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
 .Media{
     background-image: url('../images/Rectangle\ 29.png');
     width: 400px;
     height: 680px;
+}
+.next2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 630px;
+    right: 140px;
 }
 h4{
     color: white;
@@ -172,11 +207,12 @@ h4{
     color: white;
     position: relative;
     top: 100px;
-    left: 50px;
-    font-size: 200%;
-}
-.logos{
-    
+    left: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 2px;
 }
 h3{
     color: white;
@@ -184,7 +220,167 @@ h3{
     top: 50px;
     left: 30px;
 }
+.happy-clients{
+    width: 100%;
+    height: 100vh;
+    padding-top: 400px;
+    position: relative;
+    left: 40px;
+}
+.clients{
+    position: relative;
+    bottom: 80px;
+}
+.rect40{
+    position: relative;
+}
+.container-seen{
+    width: 100%;
+    height: 100vh;
+    padding-top: 400px; 
+}
+.seen-all{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 150px;
+    position: relative;
+    top: 80px;
+}
+.h2-seen{
+    position: relative;
+    left: 550px;
 
+}
+.insta{
+    font-family: 'Great vibes';
+}
+.seen1{
+    width: 180px;
+    height: 400px;
+    position: relative;
+}
 
+.seen2{
+    width: 180px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+
+.seen3{
+    width: 180px;
+    height: 400px;
+    position: relative;
+}
+.seen4{
+    width: 180px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+.seen5{
+    width:180px;
+    height: 400px;
+    position: relative;
+    
+}
+.seen6{
+    width: 180px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+.tigz-seenh2{
+    position: relative;
+     top: 180px;
+    left: 600px;
+    bottom: 60px;
+}
+.seen-follow-button{
+    background-color:#742296;
+    border: none;
+    width: 150px;
+    height: 45px;
+    color:white;
+    position: relative;
+    top: 190px;
+    left: 600px; 
+}
+.footer-end{
+    background-color: #742296;
+    position: relative;
+    top: 400px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 90px;
+    gap: 150px;
+    opacity: 90%;
+    line-height: 25px;
+    
+}
+.footer span{
+     font-style: italic;
+      color: white;
+      opacity: 100%;
+}
+form input{
+    border: none;
+    background-color: white;
+    padding: 10px 30px;
+}
+.p2{
+    color: white;
+    font-size:15px ;
+}
+.h5-footer{
+    font-size: 30px;
+}
+.white-line{
+    background-color: white;
+    width: 180px;
+    height: 2px;
+    position: relative;
+    bottom: 10px;
+}
+.white-line-about{
+    background-color: white;
+    width: 130px;
+    height: 2px;
+    position: relative;
+    bottom: 10px;
+}
+.white-line-logo{
+    background-color: white;
+    width: 80px;
+    height: 2px;
+    position: relative;
+    bottom: 20px;
+}
+:root{
+    --primary-color:white;
+    --secondary-color:black;
+}
+.dark-theme{
+    --primary-color:black;
+    --secondary-color:white;
+}
+
+.p1 ,h1,p,h2,h5,h6{
+    color: var(--secondary-color);
+}
+#night-mode{
+    width: 40px;
+    height: 40px;
+}
 
 
